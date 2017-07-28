@@ -123,9 +123,8 @@ body {
     /*display: block;*/
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     padding-bottom: 1.3rem;
-    opacity: 0.6;
     margin-top: 0.8rem;
-    color: #767676;
+    color: #A5A5A5;
     font-weight: 300;
     font-size: 1.3rem;
 }
