@@ -37,7 +37,7 @@ p {
 
 html {
     font-size: 62.5%;
-	font-family: 'Questrial', sans-serif;
+    font-family: 'Questrial', sans-serif;
 }
 
 body {
@@ -75,7 +75,7 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
+
 
     .side {
         /*display: flex;*/
@@ -95,11 +95,11 @@ body {
 }
 
 @media (max-width:750px) {
-	.box {
-		max-width: 400px;
+    .box {
+        max-width: 400px;
 
 
-	}
+    }
 
 }
 
@@ -170,7 +170,7 @@ body {
 }
 
 .profile-link a {
-	opacity: 0.4;
+    opacity: 0.4;
     display: flex;
     flex-direction: row;
 
@@ -203,16 +203,23 @@ body {
     border: 1px solid rgba(227, 227, 227, 1);
     margin: 20px 20px;
     max-width: 400px;
-/*     max-height: 300px; */
+    /*     max-height: 300px; */
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
-
+    -webkit-transition: all 250ms cubic-bezier(.02,.01,.47,1);
+    -moz-transition: all 250ms cubic-bezier(.02,.01,.47,1);
+    transition: all 250ms cubic-bezier(.02,.01,.47,1);
 
 }
 
+.box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+}
+
 .box a:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .box img {
