@@ -78,6 +78,7 @@ body {
 }
 
 .side {
+    height：313.16px;
     flex-grow: 0;
     line-height: 1.8rem;
     flex-shrink: 0;
