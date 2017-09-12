@@ -78,7 +78,7 @@ body {
 }
 
 .side {
-    height：100%;
+    height: 100%;
     flex-grow: 0;
     line-height: 1.8rem;
     flex-shrink: 0;
