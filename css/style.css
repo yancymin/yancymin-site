@@ -36,12 +36,17 @@ p {
 }
 
 html {
+    height: 100%;
     font-size: 62.5%;
     font-family: 'Questrial', sans-serif;
 }
 
 body {
-
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     background-color: #ECECEC;
 }
 
@@ -69,8 +74,6 @@ body {
     }
 */
 
-
-
 .container {
     display: flex;
     flex-direction: row;
@@ -89,7 +92,7 @@ body {
     /*flex-direction: column;*/
     /*justify-content:center;*/
     /*align-items: center;*/
-    margin: 40px 30px 0 30px;
+    /*margin: 40px 30px 0 30px;*/
     text-align: center;
 
 }
@@ -175,9 +178,9 @@ body {
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
-    -webkit-transition: all 250ms cubic-bezier(.02,.01,.47,1);
-    -moz-transition: all 250ms cubic-bezier(.02,.01,.47,1);
-    transition: all 250ms cubic-bezier(.02,.01,.47,1);
+    -webkit-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    -moz-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
 
 }
 
@@ -197,7 +200,7 @@ body {
 }
 
 .footer {
-    opacity:0.8;
+    opacity: 0.8;
     margin: 10px 40px 0 40px;
     padding-top: 20px;
     width: auto;
@@ -213,36 +216,34 @@ body {
     opacity: 0.3;
 }
 
-@media (max-width:1200px) {
-    .container {
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+/*@media (max-width:1200px) {*/
+/*.container {*/
+/*display: inline-flex;*/
+/*flex-direction: row;*/
+/*flex-wrap: wrap;*/
+/*}*/
 
+/*.side {*/
+/*!*display: flex;*!*/
+/*!*flex-direction: row;*!*/
+/*!*flex-wrap: wrap;*!*/
 
-    .side {
-        /*display: flex;*/
-        /*flex-direction: row;*/
-        /*flex-wrap: wrap;*/
+/*padding-bottom: 1.3rem;*/
+/*border-bottom: 1px solid rgba(0, 0, 0, 0.15);*/
 
-        padding-bottom: 1.3rem;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+/*}*/
 
+/*.tag {*/
+/*border-bottom: 1px solid rgba(0, 0, 0, 0.15);*/
+/*}*/
 
-    }
+/*}*/
 
-    .tag {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-    }
+/*@media (max-width:750px) {*/
+/*.box {*/
+/*max-width: 400px;*/
+/*justify-content: center;*/
 
-}
+/*}*/
 
-@media (max-width:750px) {
-    .box {
-        max-width: 400px;
-        justify-content: center;
-
-    }
-
-}
+/*}*/
