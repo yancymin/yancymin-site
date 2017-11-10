@@ -73,8 +73,21 @@ body {
     }
     }
 */
+@keyframes fateIn {
+    0% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
 
 .container {
+    -webkit-animation: fateIn 1.5s;
+    -o-animation: fateIn 1.5s;
+    animation: fateIn 1.5s;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
