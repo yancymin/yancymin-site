@@ -59,7 +59,24 @@ body {
     background-color: #ECECEC;
 }
 
+@keyframes fateIn {
+    0% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
 .wrap {
+    -webkit-animation: fateIn 1.5s;
+    -o-animation: fateIn 1.5s;
+    animation: fateIn 1.5s;
     display: flex;
     width: 240px;
     height: auto;
@@ -102,6 +119,9 @@ li img {
 }
 
 .profile-link {
+    -webkit-animation: fateIn 1.5s;
+    -o-animation: fateIn 1.5s;
+    animation: fateIn 1.5s;
     display: flex;
     flex-direction: row;
 
@@ -114,4 +134,9 @@ li img {
     flex-direction: row;
     margin-top: 1.3rem;
 }
+
+.profile-link a:hover {
+    opacity: 0.8;
+}
+
 
