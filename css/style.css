@@ -41,7 +41,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 75vw;
+    width: 848px;
     justify-content: flex-end;
 }
 
