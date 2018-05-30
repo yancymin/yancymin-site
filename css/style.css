@@ -28,6 +28,8 @@ a {
 }
 
 body {
+    cursor:url(../arrow.png),auto; 
+    border: 12px solid #242424;
     height: 100vh;
     color: #000;
     font-family: 'Roboto Mono', monospace;
@@ -36,6 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+    -webkit-font-smoothing: antialiased; 
 }
 
 .container {
@@ -69,7 +72,8 @@ body {
 }
 
 .iconbg {
-    transition: all 0.4s;
+    cursor: none;
+    transition: all 0.8s;
     display: flex;
     justify-content: center;
     align-items: center;
