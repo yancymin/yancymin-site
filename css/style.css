@@ -30,7 +30,7 @@ a {
 body {
     cursor:url(../arrow.png),auto; 
     border: 12px solid #242424;
-    height: 100vh;
+    height: calc(100vh - 24px);
     color: #000;
     font-family: 'Roboto Mono', monospace;
     background-color: #f4f2ee;
