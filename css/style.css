@@ -28,7 +28,7 @@ a {
 }
 
 body {
-    cursor:url(../arrow.png),auto; 
+    cursor: url(../arrow.png), auto;
     border: 12px solid #242424;
     height: calc(100vh - 24px);
     color: #000;
@@ -38,7 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -109,6 +109,9 @@ i {
 }
 
 .pic {
+    z-index: 2;
+    position: absolute;
+    right: 0;
     border-radius: 100%;
     width: 52px;
     height: 52px;
@@ -118,4 +121,39 @@ i {
 .pic img {
     width: 52px;
     height: 52px;
+}
+
+.hoverbox {
+    z-index: 1;
+    line-height: 23px;
+    text-align: right;
+    position: absolute;
+    height: 52px;
+    display: none;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 144px;
+}
+
+.hoverbox :first-child {
+    margin-bottom: 4px;
+}
+
+.linktext {
+    cursor: url(../arrow.png), auto;
+    /* display: block; */
+    font-size: 12px;
+    color: #000;
+    text-decoration-line: underline;
+}
+
+#change {
+    width: 144px;
+    height: 52px;
+    position: relative;
+}
+
+.hoverbox a:hover {
+    color: rgb(207, 207, 207);
+    background-color: #000;
 }
