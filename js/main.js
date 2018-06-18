@@ -2,7 +2,7 @@
 
 var hoverbox = document.getElementById('hoverbox');
 var pic = document.getElementById('pic');
-var change = document.getElementById('change');
+var change = document.getElementById('link');
 
 // pic.addEventListener("mouseenter", function () {
 //     this.style.display="none";
