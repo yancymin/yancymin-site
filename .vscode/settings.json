@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "yancymin.github.io"
+    "liveServer.settings.multiRootWorkspaceName": "yancymin.github.io",
+    "git.ignoreLimitWarning": true
 }
