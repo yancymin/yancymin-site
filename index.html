@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -109,6 +108,24 @@
 
     </div>
     <script src="js/main.js"></script>
+    <script>
+        function getBotSonarSSID() {
+          return "WAtsZijssxTtToT3QTTarf8FNB2WT9dl";
+        }
+    </script>
+    <script>
+      var antiSpiderScript = document.createElement("script");
+      antiSpiderScript.src = "https://botsonar.oss-cn-qingdao.aliyuncs.com/insight.0.2.9.js";
+      document.body.appendChild(antiSpiderScript);
+      var config = {
+          api_server: 'sdk.egoid.me',
+          post: true,
+          https: true,        
+      }
+      antiSpiderScript.addEventListener('load', (e) => {
+        BotSonar(config);
+      });
+    </script>
 </body>
 
 </html>
