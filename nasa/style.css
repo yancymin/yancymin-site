@@ -65,8 +65,9 @@ main {
   width: 100%;
 }
 
-.right iframe:first-child {
+.right > iframe {
   z-index: 99;
+  filter: invert(1);
 }
 
 .right iframe:last-child {
@@ -82,7 +83,6 @@ main {
   .right > iframe {
     position: relative;
     height: 297px !important;
-    filter: invert(1);
   }
 
   .right {
