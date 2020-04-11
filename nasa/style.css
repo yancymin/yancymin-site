@@ -51,7 +51,7 @@ main {
 
 .right div {
   max-width: 625px;
-
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,5 +94,19 @@ main {
   svg {
     transform: scale(0.7);
     transform-origin: top left;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .right iframe:first-child {
+    height: 527px;
+  }
+  .right iframe:last-child {
+    transform: unset;
+    height: 400px;
+  }
+  .right > div {
+    overflow: hidden;
+    height: calc(100vh - 527px);
   }
 }
