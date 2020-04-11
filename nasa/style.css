@@ -69,22 +69,22 @@ main {
 }
 
 .right iframe:last-child {
-  width: 400px;
+  width: 400px !important;
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1620px) {
   .left iframe:last-child {
-    max-width: 30%;
+    max-width: 27%;
     height: 27%;
   }
   .right iframe:first-child {
-    height: 282px;
+    height: 445px !important;
   }
 
   .right > div {
     overflow: hidden;
-    height: calc(100vh - 282px);
+    height: calc(100vh - 445px) !important;
   }
 
   .right iframe:last-child {
