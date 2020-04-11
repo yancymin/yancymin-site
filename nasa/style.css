@@ -80,12 +80,37 @@ main {
     height: 33%;
   }
   .right iframe:first-child {
-    height: 297px !important;
+    position: relative;
+    height: 327px !important;
+  }
+
+  .right {
+    position: relative;
+  }
+
+  @keyframes show {
+    to {
+      opacity: 1;
+    }
+  }
+
+  .right::before {
+    opacity: 0;
+    position: absolute;
+    top: 297px;
+    z-index: 999;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    animation: show 0.1s linear forwards;
+    animation-delay: 6s;
   }
 
   .right > div {
     overflow: hidden;
-    height: calc(100vh - 297px) !important;
+    height: calc(100vh - 327px) !important;
   }
 
   .right iframe:last-child {
