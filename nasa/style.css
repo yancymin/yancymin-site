@@ -9,6 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #040404;
+  overflow: hidden;
 }
 
 svg {
@@ -75,16 +76,16 @@ main {
 
 @media screen and (max-width: 1080px) {
   .left iframe:last-child {
-    max-width: 27%;
-    height: 27%;
+    max-width: 30%;
+    height: 33%;
   }
   .right iframe:first-child {
-    height: 445px !important;
+    height: 297px !important;
   }
 
   .right > div {
     overflow: hidden;
-    height: calc(100vh - 445px) !important;
+    height: calc(100vh - 297px) !important;
   }
 
   .right iframe:last-child {
