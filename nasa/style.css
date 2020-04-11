@@ -72,3 +72,27 @@ main {
   width: 400px;
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 1024px) {
+  .left iframe:last-child {
+    max-width: 30%;
+    height: 27%;
+  }
+  .right iframe:first-child {
+    height: 282px;
+  }
+
+  .right > div {
+    overflow: hidden;
+    height: calc(100vh - 282px);
+  }
+
+  .right iframe:last-child {
+    transform: unset;
+  }
+
+  svg {
+    transform: scale(0.7);
+    transform-origin: top left;
+  }
+}
