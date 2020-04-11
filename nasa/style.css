@@ -73,7 +73,7 @@ main {
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 1620px) {
+@media screen and (max-width: 1080px) {
   .left iframe:last-child {
     max-width: 27%;
     height: 27%;
