@@ -1,5 +1,4 @@
 # Redirect domain aliases to primary domain
-https://blog.yancymin.design/* https://www.notion.so/blog-yancymin-design-05ea9ff6cee84beabf9f8ca9cf5e6efc/:splat 301!
 https://yancymin.design/resume https://www.notion.so/yancymin/Hello-194e14a000784338975a3fd107a5e5a3 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
